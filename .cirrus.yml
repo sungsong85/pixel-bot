@@ -29,7 +29,7 @@ task:
       - lsblk
       - ls -l -a -h 
   build-packages_script:
-      - cd~/
+      - cd ~/
       - git clone https://github.com/akhilnarang/scripts 
       - cd ~/scripts 
       - ./setup/android_build_env.sh
