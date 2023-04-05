@@ -15,7 +15,7 @@ env:
     CM_PATH: device/oneplus/sm6375-common
     TARGET: bacon
     EXTRA_CMD: export SKIP_ABI_CHECKS=true
-    LUNCH_COMBO: aosp_${DEVICE}-userdebug
+    LUNCH_COMBO: lineage_${DEVICE}-userdebug
     OUTPUT: PixelExperience*.zip
 
 task:
