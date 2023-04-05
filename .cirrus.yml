@@ -58,7 +58,7 @@ task:
       - ccache -M 50G
       - . build/envsetup.sh
       - lunch "$LUNCH_COMBO"
-      - mka bacon -j4(nproc --all)
+      - mka -j31 $TARGET
      
   Upload_script:
       - echo "============================"
