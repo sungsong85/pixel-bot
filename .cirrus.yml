@@ -1,5 +1,5 @@
 env:
-    MANIFEST: repo init -u https://github.com/LineageOS/android.git -b lineage-20.0 --git-lfs
+    MANIFEST: repo init -u https://github.com/LineageOS/android.git
     DEVICE: CPH2381
     OEM: oneplus
     DT_LINK: https://github.com/sungsong85/lineage_CPH2381.git
